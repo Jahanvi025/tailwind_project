@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./input.css">
+    <link rel="stylesheet" href="output.css">
+</head>
+<body>
+    <div class="container  w-[375px]">
+        <div class="nav h-[44px] flex justify-between items-center">
+           <h1 class="px-5">9:41</h1>
+     
+           <div class="px-5">
+             <!-- Use the correct Font Awesome classes -->
+             <i class="fa fa-signal"></i>
+             <i class="fa fa-wifi"></i>
+             <i class="fa fa-battery-full"></i>
+           </div>
+           
+        </div>
+        <br>
+        <p class="text-xl font-semibold text-center cursor-pointer mx-[80px] h-[24px] w-[219px] text-black hover:border-b border-blue-500">What are your goals?</p>
+        <br><br>
+        <div>
+            <div class="w-[343px] h-[50px] mx-4 rounded-xl bg-[#F1F1F1] flex flex-row items-center justify-between px-4 ">
+                <p class="text-center text-xs h-[15px] w-[77px] ">Weight Loss</p>
+                <input class="w-[22px] h-[22px] border border-solid border-blue-500 accent-blue-500 " type="checkbox">
+            </div>
+    
+            <div class="w-[343px] h-[50px] my-5 mx-4 rounded-xl bg-[#F1F1F1] flex flex-row items-center justify-between px-4 ">
+                <p class="text-center text-xs h-[15px] w-[77px] ">Weight Gain</p>
+                <input class="w-[22px] h-[22px] border border-solid border-blue-500 accent-blue-500 " type="checkbox">
+            </div>
+    
+            <div class="w-[343px] h-[50px] my-5 mx-4 rounded-xl bg-[#F1F1F1] flex flex-row items-center justify-between px-4 ">
+                <p class="text-center text-xs h-[15px] w-[77px] ">Gain Muscle</p>
+                <input class="w-[22px] h-[22px] border border-solid border-blue-500 accent-blue-500 " type="checkbox">
+            </div>
+    
+            <div class="w-[343px] h-[50px] my-5 mx-4 rounded-xl bg-[#F1F1F1] flex flex-row items-center justify-between px-4">
+                <p class="text-center text-xs h-[15px] w-[77px] ">Stay Active</p>
+                <input class="w-[22px] h-[22px] border border-solid border-blue-500 accent-blue-500" type="checkbox">
+            </div>
+    
+            <div class="w-[343px] h-[50px] my-5 mx-4 rounded-xl bg-[#F1F1F1] flex flex-row items-center justify-between px-4">
+                <p class="text-center text-xs  h-[15px] w-[77px] ">Eat Healthy</p>
+                <input class="w-[22px] h-[22px] border border-solid border-blue-500 accent-blue-500 " type="checkbox">
+            </div>
+    
+            <div class="w-[343px] h-[50px] my-5 mx-4 rounded-xl bg-[#F1F1F1] flex flex-row items-center justify-between px-4 ">
+                <p class="text-center text-xs h-[15px] w-[77px] ">Other</p>
+                <input class="w-[22px] h-[22px] border border-solid border-blue-500 accent-blue-500 " type="checkbox">
+            </div>
+        </div>
+
+        <button class="rounded-xl my-24 w-[343px] h-[50px] absolute top-[574px] left-4 bg-[#7B91FF] placeholder-montserrat text-lg font-semibold text-white pl-3 border border-transparent hover:border-blue-600" onclick="Confirmation()">Confirm</button>
+
+    </div>
+    <script src="./app2.js"></script>
+
+
+    </body>
+        
+</html>

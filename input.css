@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+.skip {
+    @apply w-9 cursor-pointer h-5 text-base leading-[19.5px] font-medium text-[#9FB2FF] underline relative top-0 left-[323px];
+}
+.div_position{
+   @apply flex flex-col absolute gap-y-4 top-[499px] left-4;
+}
+.goal{
+    @apply h-6 w-40 font-semibold text-xl text-black;
+}
+
+@tailwind utilities;
